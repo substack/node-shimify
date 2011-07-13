@@ -1,0 +1,37 @@
+{
+    "name" : "shimify",
+    "version" : "0.0.0",
+    "description" : "browserify middleware to prepend es5-shim",
+    "main" : "index.js",
+    "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+    },
+    "dependencies" : {
+        "es5-shim" : "1.2.x"
+    },
+    "devDependencies" : {
+        "expresso" : "0.7.x",
+        "browserify" : ">=1.2.9 <1.3",
+        "es5-shim" : "1.2.x"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/substack/node-shimify.git"
+    },
+    "keywords" : [
+        "es5",
+        "shim",
+        "middleware",
+        "browserify",
+        "browser"
+    ],
+    "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+    },
+    "license" : "MIT/X11",
+    "engine" : { "node" : ">=0.4" }
+}
