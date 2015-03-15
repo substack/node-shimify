@@ -22,6 +22,6 @@ console.log(src);
 installation
 ============
 
-With [http://npmjs.org](npm), do:
+With [npm](http://npmjs.org), do:
 
     npm install shimify
